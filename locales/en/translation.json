@@ -1,0 +1,136 @@
+{
+  "header": {
+    "info": {
+      "SiteNotice": "Site Notice",
+      "PrivacyPolicy": "Privacy Policy",
+      "HowToOrder": "How to order",
+      "Catalog": "Catalog"
+    },
+    "navigate": {
+      "home": "HOME",
+      "services": {
+        "title": "SERVICES",
+        "links": {
+          "link-1": "WHOLESALE AND RETAIL",
+          "link-2": "STUDGING WORKS",
+          "link-3": "INDIVIDUAL PRODUCTION",
+          "link-4": "MOLDING TECHNOLOGY"
+        }
+      },
+      "products": {
+        "title": "PRODUCTS",
+        "links": {
+          "link-1": "INSERT",
+          "link-2": "FACADE MODEL",
+          "link-3": "CATALOG DOWNLOAD",
+          "link-4": "CATALOG FASSANDENSTUCK DOWNLOAD"
+        }
+      },
+      "fotogalery": "FOTOGALERY",
+      "loginDetails": "LOGIN DETAILS",
+      "contact": {
+        "title": "CONTACT",
+        "links": {
+          "link-1": "DIRECTIONS",
+          "link-2": "SAMPLE DELIVERY",
+          "link-3": "CONDITIONS",
+          "link-4": "SHIPPING AND PAYMENT"
+        }
+      }
+    }
+  },
+  "home": {
+    "main": {
+      "title-1": "WELCOME",
+      "p-1-1": "STUCKDISCOUNT was founded in Berlin in 2009. At first only stucco was sold and the assembly work was done by different companies. One of the fitters was an engineer and draftsman, today's entrepreneur and managing director, Ali Kanber Aygün. When the founder was looking for a successor due to age, he decided - due to many positive reviews from customers - to pass the company on to him. Today - since 2012 - the company STUCKDISCOUNT has been operated under his management in Berlin as a medium-sized family business, which is guild-certified.",
+      "p-1-2": "Due to our high level of qualification, we attach great importance to good and detailed planning before the implementation of our projects in order to achieve an optimal cost-benefit result for our customers. We would be happy to advise you. Please arrange an appointment with us.",
+      "title-2": "A little journey through the age of stucco",
+      "p-2-1": "Stucco is a term that is known to almost everyone and yet not very much is known about its origin. Stucco has existed since the Neolithic Age and has been used since 7000 BC. to decorate interiors and exteriors. According to history, its origin lies in the city of Catalhöyük (present-day Türkiye). In ancient times, plaster and alabaster were also used for the floor. The Egyptians used the material to immortalize Nefertiti in the form of a bust. But the Greeks also found an interesting way to use stucco, and that was to pour it on their dead. The Romans also used stucco to store fruit and to make wine.",
+      "p-2-2": "In Germany people have been working with stucco since 1473. Palaces and church ceilings in particular were decorated with stucco, which is why pompous stucco designs often come to mind when one thinks of the Renaissance. The baroque period turned out to be the key time for striving for a master plasterer title. Stucco was and is an extremely valuable form of decoration and was considered a luxurious part of style.",
+      "p-2-3": "However, with the beginning of modernism, stucco elements became a thorn in the side of architecture. The term stucco removal was introduced for the first time because stucco was systematically removed from the old buildings, damaging numerous historical objects. Today, the stucco elements are, as they were for most of history, a very noble and indispensable part of interior and exterior furnishings. Stucco is versatile and adapts to a wide variety of styles and completes the overall picture of any facility. It is therefore an honor for us as a plastering company to ensure that an architectural tool like this can continue its history."
+    },
+    "categories": {
+      "btnText": "MORE INFO",
+      "card-1": {
+        "title": "wholesale and retail",
+        "content": "We sell stucco elements made of plaster of the highest quality (natural material alabaster model plaster) from international production and our own production in our workshop in Neukölln, carefully handcrafted."
+      },
+      "card-2": {
+        "title": "Individual production",
+        "content": "We can also realize your most individual wishes in terms of pattern and structure and much more. Let our experts advise you personally without obligation."
+      },
+      "card-3": {
+        "title": "The stucco work",
+        "content": "We assemble our stucco with the utmost care and according to your individual wishes in apartments, houses and commercial properties up to new hotel buildings, as well as in the renovation of old and new buildings."
+      },
+      "card-4": {
+        "title": "impression technique",
+        "content": "We have experience in restoring incomplete stucco elements. We copy and reproduce the existing stucco parts by hand and can thus easily replace the missing parts and close existing gaps."
+      }
+    },
+    "products": {
+      "title": "Products"
+    }
+  },
+  "productsCategories": {
+    "title": "PRODUCT-CATEGORIE",
+    "categories": {
+      "facadeStucco": {
+        "titleCategorie": "Facade stucco",
+        "categoriesTypes": {
+          "bosses": "Bosses",
+          "corner": "Corner elements",
+          "windowsills": "Windowsills",
+          "windowBar": "Window bar",
+          "mainCornice": "Main cornice",
+          "pilaster": "Pilaster",
+          "columns": "Columns",
+          "miscellaneous": "Miscellaneous"
+        }
+      },
+      "internal": {
+        "titleCategorie": "Internal",
+        "categoriesTypes": {
+          "pictures": "Pictures",
+          "ceilingAndWallMoldings": "Ceiling and wall moldings",
+          "ceilingMirror": "Ceiling mirror",
+          "decorativeCorners": "Decorative corners",
+          "indirectLightStrips": "Indirect Light Strips",
+          "cassettes": "Cassettes",
+          "consoles": "Consoles",
+          "lamps": "Lamps",
+          "ornaments": "Ornaments",
+          "pilaster": "Pilaster",
+          "frameMoldings": "Frame Moldings",
+          "rosettes": "Rosettes",
+          "columns": "Columns",
+          "miscellaneous": "Miscellaneous",
+          "supraport": "Supraport"
+        }
+      }
+    }
+  },
+  "product": {
+    "categorie": "categorie",
+    "discription": {
+      "title": "discription",
+      "connect": "connect",
+      "unitPrice": "unit price"
+    },
+    "mainPage": "home"
+  },
+  "photoGallery": {
+    "title": "Photo gallery",
+    "context": "Here we have put together some impressions for you. All photos are from objects that we have recently worked on and are intended to give you an impression of the many possible uses of stucco - from classic to modern."
+  },
+  "footer": {
+    "location": "Berlin",
+    "info": {
+      "consultation": "Arrange a non-binding and free consultation with our experts. We are happy to hear from them!",
+      "contactWithUs": "You can reach us personally Monday to Friday from 8:30 a.m. to 4:30 p.m. and Saturday from 9:00 a.m. to 4:30 p.m. - or simply use the contact form for a short message and we will get back to you as soon as possible."
+    },
+    "PolicyPrivacy": "I've read the privacy policy. I agree that my details and data are collected and stored electronically to answer my query. Note. You can withdraw at any time. You give your consent for the future by e-mail.",
+    "agree": "I agree",
+    "btnSentText": "Send"
+  }
+}

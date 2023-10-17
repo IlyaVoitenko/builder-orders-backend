@@ -1,0 +1,136 @@
+{
+  "header": {
+    "info": {
+      "SiteNotice": "Impressum",
+      "PrivacyPolicy": "Datenschutz-Bestimmungen",
+      "HowToOrder": "Wie man bestellt",
+      "Catalog": "Katalog"
+    },
+    "navigate": {
+      "home": "HEIM",
+      "services": {
+        "title": "DIENSTLEISTUNGEN",
+        "links": {
+          "link-0": "GROSS-UND EINZELHANDEL",
+          "link-1": "STUDIERENDE ARBEITEN",
+          "link-2": "INDIVIDUELLE FERTIGUNG",
+          "link-3": "FORMTECHNIK"
+        }
+      },
+      "products": {
+        "title": "PRODUKTE",
+        "links": {
+          "link-0": "EINFÜGUNG",
+          "link-1": "FASSADENMODELL",
+          "link-2": "KATALOG-DOWNLOAD",
+          "link-3": "KATALOG FASSANDENSTUCK DOWNLOAD"
+        }
+      },
+      "fotogalery": "FOTOGALERY",
+      "loginDetails": "LOGIN DETAILS",
+      "contact": {
+        "title": "KONTAKT",
+        "links": {
+          "link-0": "RICHTUNGEN",
+          "link-1": "MUSTERLIEFERUNG",
+          "link-2": "BEDINGUNGEN",
+          "link-3": "VERSAND UND ZAHLUNG"
+        }
+      }
+    }
+  },
+  "home": {
+    "main": {
+      "title-1": "HERZLICH WILLKOMMEN",
+      "p-1-1": "STUCKDISCOUNT wurde 2009  in Berlin gegründet. Zunächst wurde nur Stuck verkauft und die Montagearbeiten durch verschiedene Firmen erledigt. Einer der Monteure war ein Ingenieur u. Bauzeichner, der heutige Unternehmer und Geschäftsführer, Ali Kanber Aygün. Als der Gründer altersbedingt einen Nachfolger suchte, entschied er sich – aufgrund vieler positiver Beurteilungen aus der Kundschaft – das Unternehmen an ihn weiterzugeben. Heute wird – mittlerweile wird seit  2012  wird unter seiner Leitung in Berlin die Firma STUCKDISCOUNT als mittelständisches Familienunternehmen innungsgeprüft betrieben.",
+      "p-1-2": "Aufgrund unserer hohen Qualifikation legen wir besonders großen Wert auf eine gute und ausführliche Planung vor der Umsetzung unserer Projekte, um so ein optimales Kosten-Nutzen-Ergebnis für unsere Kunden zu erzielen . Wir beraten Sie gerne, vereinbaren Sie dazu bitte einen Termin mit uns.",
+      "title-2": "Eine kleine Reise durch das Zeitalter des Stucks",
+      "p-2-1": "Stuck ist ein Begriff, der nahezu jedem bekannt ist und dennoch ist nicht sehr viel über seine Entstehung bekannt. Dabei besteht Stuck schon seit der Jungsteinzeit und dient seit 7000 v. Chr. zur Verzierung von Innen- und Außenräumen. Der Geschichte nach liegt seine Entstehung in der Stadt Catalhöyük (heutige Türkei). In der Antike wurden Gips und Alabaster auch für den Boden verwendet. Die Ägypter nutzten das Material zur Verewigung der Nofretete in Form einer Büste. Doch auch die Griechen fanden eine interessante Art und Weise Stuck zu verwenden, und zwar gossen Sie Ihre Toten damit ein. Die Römer nutzten Stuck außerhalb der Raumgestaltung auch zur Aufbewahrung von Früchten und zur Weinbereitung.",
+      "p-2-2": "In Deutschland arbeitet man seit 1473 mit Stuck. Insbesondere Paläste und Kirchendecken wurden mit Stuck verziert, weshalb einem im Gedanken an die Renaissance häufig pompöse Stuckgestaltungen in den Sinn kommen. Die Barockzeit entpuppte sich als Stichzeit für das Anstreben eines Stuckateur Meistertitels. Stuck war und ist eine äußerst aufwertende Form der Verzierung und galt als luxuriöser Stilbestandteil.",
+      "p-2-3": "Doch mit Anbeginn der Moderne wurden Stuckelemente zum Dorn im Auge der Architektur. Erstmals wurde der Begriff Entstuckung eingeführt, denn es wurde systematisch Stuck aus den Altbauten entfernt, wodurch zahlreiches Geschichtsgut beschädigt wurde. Heute sind die Stuckelemente wie sie es die meiste Zeit der Geschichte waren ein sehr edles und kaum noch weg zu denkendes Bestandteil von Innen- und Außeneinrichtungen. Stuck ist vielseitig und passt sich verschiedensten Stilen an und vervollständigt das Gesamtbild einer jeden Einrichtung. Uns als Stuckateur Betrieb ist daher eine Ehre einem Architektur Mittel wie diesem die Fortführung seiner Geschichte zu gewährleisten."
+    },
+    "categories": {
+      "btnText": "MEHR INFO",
+      "card-1": {
+        "title": "Groß- und Einzelhandel",
+        "content": "Wir verkaufen Stuck-Elemente aus Gips der höchsten Qualität (Naturmaterial Alabastermodellgips) aus internationaler Fabrikation und eigener Herstellung in unserer Neuköllner Werkstatt in sorgfältiger Handarbeit."
+      },
+      "card-2": {
+        "title": "Individuelle Anfertigung",
+        "content": "Wir können auch Ihre individuellsten Wünsche hinsichtlich der Musterung und Struktur sowie vieles mehr realisieren. Lassen Sie sich doch einmal unverbindlich von unseren Experten ganz persönlich beraten."
+      },
+      "card-3": {
+        "title": "Stuckarbeiten",
+        "content": "Wir montieren unseren Stuck mit größter Sorgfalt und nach Ihren individuellen Wünschen in Wohnungen, Häusern und Gewerbeobjekten bis hin zu Hotelneubauten, sowie natürlich auch bei der Sanierung von Alt- und Neubauten."
+      },
+      "card-4": {
+        "title": "Abformtechnik",
+        "content": "Wir haben Erfahrung in der Restauration unvollständiger Stuck-Elemente. Wir kopieren und reproduzieren in Handarbeit die vorhandenen Stuckteile und können so problemlos die fehlenden Teile ersetzen und vorhandene Lücken schließen."
+      }
+    },
+    "products": {
+      "title": "Produkte"
+    }
+  },
+  "productsCategories": {
+    "title": "PRODUKT-KATEGORIEN",
+    "categories": {
+      "facadeStucco": {
+        "titleCategorie": "Fassadenstuck",
+        "categoriesTypes": {
+          "bosses": "Bossen",
+          "corner": "Eckelementen",
+          "windowsills": "Fensterbänke",
+          "windowBar": "Fensterleiste",
+          "mainCornice": "Hauptgesims",
+          "pilaster": "Pilaster",
+          "columns": "Säulen",
+          "miscellaneous": "Sonstiges"
+        }
+      },
+      "internal": {
+        "titleCategorie": "Internal",
+        "categoriesTypes": {
+          "pictures": "Bilder",
+          "ceilingAndWallMoldings": "Decken- und Wandleisten",
+          "ceilingMirror": "deckenspiegel",
+          "decorativeCorners": "Dekorative Ecken",
+          "indirectLightStrips": "Indirektes Licht Leisten",
+          "cassettes": "Kassetten",
+          "consoles": "Konsolen",
+          "lamps": "lampen",
+          "ornaments": "Ornamente",
+          "pilaster": "Pilaster",
+          "frameMoldings": "Rahmenleisten",
+          "rosettes": "Rosetten",
+          "columns": "Säulen",
+          "miscellaneous": "Sonstiges",
+          "supraport": "Supraport"
+        }
+      }
+    }
+  },
+  "product": {
+    "categorie": "кategorien",
+    "discription": {
+      "title": "Beschreibung",
+      "connect": "Anschluss",
+      "unitPrice": "Stückpreis"
+    },
+    "mainPage": "heim"
+  },
+  "photoGallery": {
+    "title": "Fotogallerie",
+    "context": "Hier haben wir Ihnen einige Impressionen zusammengestellt. Alle Fotos sind aus Objekten, an denen wir vor kurzem gearbeitet haben und sollen Ihnen einen Eindruck von den vielfältigen Einsatzmöglichkeiten von Stuck vermitteln – von klassisch bis modern."
+  },
+  "footer": {
+    "location": "Berlin",
+    "info": {
+      "consultation": "Vereinbaren Sie eine unverbindliche und kostenlose Beratung durch unsere Experten. Wir freuen uns, von Ihnen zu hören!",
+      "contactWithUs": "Persönlich erreichen Sie uns Montags bis Freitags in der Zeit von 8:30 bis 16:30 Uhr und Samstags von 9:00 bis 16:30 Uhr - oder nutzen Sie einfach das Kontaktformular für eine kurze Nachricht, wir melden uns umgehend bei Ihnen."
+    },
+    "PolicyPrivacy": "Ich habe die Datenschutzerklärung gelesen. Ich stimme zu, dass meine Angaben und Daten elektronisch erhoben und gespeichert werden, um meine Anfrage zu beantworten. Notiz. Sie können jederzeit zurücktreten, Ihre Einwilligung für die Zukunft erteilen Sie per E-Mail an",
+    "agree": "Ich bin einverstanden",
+    "btnSentText": "schicken"
+  }
+}
