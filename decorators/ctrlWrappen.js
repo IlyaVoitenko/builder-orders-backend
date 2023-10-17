@@ -7,3 +7,5 @@ const ctrlWrappen = (func) => {
     }
   };
 };
+
+module.exports = ctrlWrappen;
