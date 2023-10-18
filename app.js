@@ -23,9 +23,10 @@ app.use(i18nextMiddleware.handle(i18next));
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use((req, res) => {
+app.use((_, res) => {
   res.status(404).json({ message: "not found" });
 });
+
 app.use((err, req, res, next) => {
   console.log("err: ", err);
   res.status(500).json({ message: err.message });
