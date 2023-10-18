@@ -2,7 +2,7 @@ const i18next = require("./i18next");
 const cors = require("cors");
 const express = require("express");
 const logger = require("morgan");
-
+require("dotenv").config();
 const app = express();
 
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
