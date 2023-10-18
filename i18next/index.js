@@ -1,13 +1,13 @@
 const i18next = require("i18next");
-const backend = require("i18next-node-fs-backend");
+const Backend = require("i18next-node-fs-backend");
+const i18nextMiddleware = require("i18next-express-middleware");
 
-i18next.use(backend).init({
-  lng: "de", // язык по умолчанию
-  fallbackLng: "de", // язык по умолчанию, если перевод не найден
-  debug: false, // выводить отладочные сообщения
-  backend: {
-    loadPath: "locales/{{lng}}/{{ns}}.json", // путь к файлам с переводами
-    addPath: "locales/{{lng}}/{{ns}}.missing.json", // путь для сохранения отсутствующих переводов
-  },
-});
+i18next
+  .use(Backend)
+  .use(i18nextMiddleware.LanguageDetector)
+  .init({
+    preload: ["de", "en"],
+    fallbackLng: "de",
+  });
+
 module.exports = i18next;
