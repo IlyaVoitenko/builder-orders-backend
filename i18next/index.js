@@ -1,5 +1,3 @@
-const express = require("express");
-
 const path = require("path");
 
 const i18next = require("i18next");
