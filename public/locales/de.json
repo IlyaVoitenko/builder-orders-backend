@@ -78,7 +78,7 @@
       "facadeStucco": {
         "titleCategorie": "Fassadenstuck",
         "categoriesTypes": {
-          "fassadenstuck": "Fassadenstuck",
+          "facadestucco": "Fassadenstuck",
           "bosses": "Bossen",
           "corner": "Eckelementen",
           "windowsills": "Fensterbänke",
