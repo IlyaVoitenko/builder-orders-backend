@@ -78,7 +78,6 @@
       "facadeStucco": {
         "titleCategorie": "Facade stucco",
         "categoriesTypes": {
-          "internal": "Internal",
           "facadestucco": "Facade stucco",
           "bosses": "Bosses",
           "corner": "Corner elements",
@@ -93,6 +92,7 @@
       "internal": {
         "titleCategorie": "Internal",
         "categoriesTypes": {
+          "internal": "Internal",
           "pictures": "Pictures",
           "ceilingAndWallMoldings": "Ceiling and wall moldings",
           "ceilingMirror": "Ceiling mirror",
