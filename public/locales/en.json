@@ -78,6 +78,7 @@
       "facadeStucco": {
         "titleCategorie": "Facade stucco",
         "categoriesTypes": {
+          "internal": "Internal",
           "facadestucco": "Facade stucco",
           "bosses": "Bosses",
           "corner": "Corner elements",

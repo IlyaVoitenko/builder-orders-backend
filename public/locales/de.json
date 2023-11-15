@@ -92,6 +92,7 @@
       "internal": {
         "titleCategorie": "Internal",
         "categoriesTypes": {
+          "internal": "Intern",
           "pictures": "Bilder",
           "ceilingAndWallMoldings": "Decken- und Wandleisten",
           "ceilingMirror": "deckenspiegel",
