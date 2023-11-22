@@ -123,6 +123,10 @@
     "photoGalleryPage": {
       "title": "Photo gallery",
       "context": "Here we have put together some impressions for you. All photos are from objects that we have recently worked on and are intended to give you an impression of the many possible uses of stucco - from classic to modern."
+    },
+    "WholesaleAndRetailPage": {
+      "title": "Wholesale And Retail",
+      "context": "We import internationally and factory-direct. Therefore, large quantities are absolutely no problem, as we always keep larger quantities in stock. Besides supplying retailers, processors and industry users, we’re also very happy to serve individual homeowners! \n  Even small quantities can be ordered from us or picked up in person in our  store during regular business hours. We’re happy to pass our price advantage on to you and also give you a comprehensive consultation. Visit us in Berlin (Neukölln)!"
     }
   },
   "footer": {
