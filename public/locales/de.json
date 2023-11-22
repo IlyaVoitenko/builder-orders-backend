@@ -11,10 +11,10 @@
       "services": {
         "title": "DIENSTLEISTUNGEN",
         "links": {
-          "link-0": "GROSS-UND EINZELHANDEL",
-          "link-1": "STUDIERENDE ARBEITEN",
-          "link-2": "INDIVIDUELLE FERTIGUNG",
-          "link-3": "FORMTECHNIK"
+          "link-1": "GROSS-UND EINZELHANDEL",
+          "link-2": "STUDIERENDE ARBEITEN",
+          "link-3": "INDIVIDUELLE FERTIGUNG",
+          "link-4": "FORMTECHNIK"
         }
       },
       "products": {
