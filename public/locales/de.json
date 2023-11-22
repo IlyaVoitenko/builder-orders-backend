@@ -127,6 +127,20 @@
     "WholesaleAndRetailPage": {
       "title": "GROSS- UND EINZELHANDEL",
       "context": "Wir importieren international „direkt ab Fabrik“; größere Mengen, die wir stets vorrätig haben, sind bei der Bestellung daher absolut unproblematisch! Neben Wiederverkäufern, Weiterverarbeitern und gewerblichen Verwendern, liefern wir auch sehr gerne an private Haushalte!\n  Auch kleine Mengen können bei uns bestellt oder im Ladengeschäft zu den Öffnungszeiten, gerne auch von Privatleuten, erworben werden. Wir geben unseren Preisvorteil gerne weiter & beraten Sie auch umfassend. Besuchen Sie uns in Berlin!"
+    },
+    "stuccoWorkPage": {
+      "title": "STUCKARBEITEN",
+      "context": "Unser Unternehmen  hat ihren Sitz in Berlin und wird vom Inhaber Alex Voitenko persönlich geleitet. Das Unternehmen hat sich auf den Groß- und Einzelhandel mit edlen Kalk- und Marmorputzen (ohne synthetische Zusätze) und Gips der höchsten Qualität (Naturmaterial Alabastermodellgips) incl. der fachgerechten Montage spezialisiert. Wir bieten unseren Kunden Stuckarbeiten mit einem umfassenden All-Inklusiv-Service incl. einer Wohnraumaufwertung.",
+      "AdditionalСontent": [
+        {
+          "p-0": "Aus einer Hand erhalten Sie umfassende Serviceleistungen – das „All Inclusive“-Paket deckt dabei alle Bereiche ab.",
+          "p-1": "Die detaillierte Planung und Beratung im Vorab. D.h., wir kommen gerne zu Ihnen auf die Baustelle und nehmen direkt Vorort digital die Maße auf. Mit diesen Maßen erstellt unser Bauzeichner & Ingenieur in unserer Geschäftsstelle für Sie am Computer eine CAD – Zeichnung zur Vorabansicht des Projekts sowie auch zur direkten Bauvorbereitung.",
+          "p-2": "Sie erhalten bei uns eine interessante Auswahl aus unserem umfassenden Sortiment edelster Stuckelemente aus internationaler Fabrikation und eigener – sorgfältiger Handarbeit in unserer Neuköllner Werkstatt Herstellung – in bester Qualität (z.B. Stuckleisten, Reliefs etc.)",
+          "p-3": "Individuelle Anfertigungen zurechtgeschnitten auf die Begebenheiten bei Ihnen vor Ort im Innen-& Außenbereich. Mittels unserer Restaurations- und Abformtechniken sind wir in der Lage 100%ige Kopien von vorhandenen Stuckelementen zu erstellen und damit problemlos Lücken bei Stuckleisten zu schließen und damit Altes in neuem Glanze erstrahlen zu lassen. So kann die ursprüngliche Schönheit und Handwerkskunst der klassischen Baumeister vergangener Jahrhunderte rekonstruiert und für die nächsten Generationen erhalten werden. Ebenso haben wir auch Erfahrung bei der Herstellung von Rundungen, Bögen und elliptische Formen (z.B. Segmentbögen etc.) um diese entsprechend Ihrer Maße herzustellen.",
+          "p-4": "Die professionelle Montage durch unsere eigenen und erfahrenen Mitarbeiter runden unser Serviceangebot für Sie ab und garantiert Ihnen einen erfolgreichen Abschluss des Projekts.",
+          "p-5": "Mittels filigranster Illusionsmalerei erhalten sie die Option mit dem für uns tätigen Illusionsmaler – auch Ihren neuen „Raum- bzw. Wandverschönerungen“ aus Stuck – Ihre ganz persönliche Note durch optische Täuschungen (z.B. von Räumlichkeit wo keine ist) etc. hinzufügen."
+        }
+      ]
     }
   },
   "footer": {
