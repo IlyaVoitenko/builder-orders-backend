@@ -122,15 +122,30 @@
   "photoGallery": {
     "photoGalleryPage": {
       "title": "Photo gallery",
-      "context": "Here we have put together some impressions for you. All photos are from objects that we have recently worked on and are intended to give you an impression of the many possible uses of stucco - from classic to modern."
+      "context": [
+        {
+          "p-0": "Here are a few examples of our work. All photos were taken at jobs sites which we have been working at recently. These will give you an impression of the diverse applications of stucco – from classic to modern."
+        }
+      ]
     },
     "WholesaleAndRetailPage": {
       "title": "Wholesale And Retail",
-      "context": "We import internationally and factory-direct. Therefore, large quantities are absolutely no problem, as we always keep larger quantities in stock. Besides supplying retailers, processors and industry users, we’re also very happy to serve individual homeowners! \n  \n Even small quantities can be ordered from us or picked up in person in our  store during regular business hours. We’re happy to pass our price advantage on to you and also give you a comprehensive consultation. Visit us in Berlin (Neukölln)!"
+      "context": [
+        {
+          "p-0": "We import internationally and factory-direct. Therefore, large quantities are absolutely no problem, as we always keep larger quantities in stock. Besides supplying retailers, processors and industry users, we’re also very happy to serve individual homeowners!"
+        },
+        {
+          "p-1": "Even small quantities can be ordered from us or picked up in person in our  store during regular business hours. We’re happy to pass our price advantage on to you and also give you a comprehensive consultation. Visit us in Berlin (Neukölln)!"
+        }
+      ]
     },
     "stuccoWorkPage": {
       "title": "STUCCO WORK",
-      "context": "Our company has its headquarters in Berlin and is personally run by its owner Alex Voitenko. The company specializes in wholesale and retail of fine limestone and marble plaster (without synthetic additives) and stucco of the highest quality (natural alabaster stucco material) including professional installation. We offer our customers stucco work which includes comprehensive services and also provides value-adding home improvements.",
+      "context": [
+        {
+          "p-0": "STUCK DISCOUNT has its headquarters in Berlin and is personally run by its owner Ali K. Aygün. The company specializes in wholesale and retail of fine limestone and marble plaster (without synthetic additives) and stucco of the highest quality (natural alabaster stucco material) including professional installation. We offer our customers stucco work which includes comprehensive services and also provides value-adding home improvements."
+        }
+      ],
       "AdditionalСontent": [
         {
           "p-0": "Comprehensive services from a one-stop-shop – an “All-Inclusive-Package”, covering all areas."
@@ -149,6 +164,17 @@
         },
         {
           "p-5": "Delicate trompe l’oeil, provided by our specialist painter, gives you the option of adding the ultimate personal touch to your new stucco room and wall improvements, for example by adding three-dimensionality where there is actually none."
+        }
+      ]
+    },
+    "customMouldingPage": {
+      "title": "CUSTOM MOULDING",
+      "context": [
+        {
+          "p-0": "Moulding and reproduction: We can either take the moulding from the original at your location or we take the original stucco element back to our workshop. It is then carefully prepared in order to provide an optimum result later. At this point, professional experience is required because it takes craftsmanship to create the stucco element desired by the customer from natural gypsum material. An in-depth examination of the nature of the model is essential for the moulding process to work perfectly and the subsurface must be assessed very thoroughly. After carefully preparing the original, we put it in a specially made wooden frame. Then we pour the silicone into the frame, immediately after mixing. After hardening (which normally takes about 24 hours), the silicone mold can be removed from the model and prepared for the casting of the reproduction. It can now be used to create any number of copies. This way, any required shape can be copied."
+        },
+        {
+          "p-1": "We look forward to your order!"
         }
       ]
     }

@@ -122,15 +122,30 @@
   "photoGallery": {
     "photoGalleryPage": {
       "title": "Fotogallerie",
-      "context": "Hier haben wir Ihnen einige Impressionen zusammengestellt. Alle Fotos sind aus Objekten, an denen wir vor kurzem gearbeitet haben und sollen Ihnen einen Eindruck von den vielfältigen Einsatzmöglichkeiten von Stuck vermitteln – von klassisch bis modern."
+      "context": [
+        {
+          "p-0": "Hier haben wir Ihnen einige Impressionen zusammengestellt. Alle Fotos sind aus Objekten, an denen wir vor kurzem gearbeitet haben und sollen Ihnen einen Eindruck von den vielfältigen Einsatzmöglichkeiten von Stuck vermitteln – von klassisch bis modern."
+        }
+      ]
     },
     "WholesaleAndRetailPage": {
       "title": "GROSS- UND EINZELHANDEL",
-      "context": "Wir importieren international „direkt ab Fabrik“; größere Mengen, die wir stets vorrätig haben, sind bei der Bestellung daher absolut unproblematisch! Neben Wiederverkäufern, Weiterverarbeitern und gewerblichen Verwendern, liefern wir auch sehr gerne an private Haushalte!\n  Auch kleine Mengen können bei uns bestellt oder im Ladengeschäft zu den Öffnungszeiten, gerne auch von Privatleuten, erworben werden. Wir geben unseren Preisvorteil gerne weiter & beraten Sie auch umfassend. Besuchen Sie uns in Berlin!"
+      "context": [
+        {
+          "p-0": "Wir importieren international „direkt ab Fabrik“; größere Mengen, die wir stets vorrätig haben, sind bei der Bestellung daher absolut unproblematisch! Neben Wiederverkäufern, Weiterverarbeitern und gewerblichen Verwendern, liefern wir auch sehr gerne an private Haushalte!"
+        },
+        {
+          "p-1": "Auch kleine Mengen können bei uns bestellt oder im Ladengeschäft zu den Öffnungszeiten, gerne auch von Privatleuten, erworben werden. Wir geben unseren Preisvorteil gerne weiter & beraten Sie auch umfassend. Besuchen Sie uns in Berlin!"
+        }
+      ]
     },
     "stuccoWorkPage": {
       "title": "STUCKARBEITEN",
-      "context": "Unser Unternehmen  hat ihren Sitz in Berlin und wird vom Inhaber Alex Voitenko persönlich geleitet. Das Unternehmen hat sich auf den Groß- und Einzelhandel mit edlen Kalk- und Marmorputzen (ohne synthetische Zusätze) und Gips der höchsten Qualität (Naturmaterial Alabastermodellgips) incl. der fachgerechten Montage spezialisiert. Wir bieten unseren Kunden Stuckarbeiten mit einem umfassenden All-Inklusiv-Service incl. einer Wohnraumaufwertung.",
+      "context": [
+        {
+          "p-0": "Unser Unternehmen  hat ihren Sitz in Berlin und wird vom Inhaber Alex Voitenko persönlich geleitet. Das Unternehmen hat sich auf den Groß- und Einzelhandel mit edlen Kalk- und Marmorputzen (ohne synthetische Zusätze) und Gips der höchsten Qualität (Naturmaterial Alabastermodellgips) incl. der fachgerechten Montage spezialisiert. Wir bieten unseren Kunden Stuckarbeiten mit einem umfassenden All-Inklusiv-Service incl. einer Wohnraumaufwertung."
+        }
+      ],
       "AdditionalСontent": [
         {
           "p-0": "Aus einer Hand erhalten Sie umfassende Serviceleistungen – das „All Inclusive“-Paket deckt dabei alle Bereiche ab."
@@ -149,6 +164,23 @@
         },
         {
           "p-5": "Mittels filigranster Illusionsmalerei erhalten sie die Option mit dem für uns tätigen Illusionsmaler – auch Ihren neuen „Raum- bzw. Wandverschönerungen“ aus Stuck – Ihre ganz persönliche Note durch optische Täuschungen (z.B. von Räumlichkeit wo keine ist) etc. hinzufügen."
+        }
+      ]
+    },
+    "customMouldingPage": {
+      "title": "ABFORMTECHNIK",
+      "context": [
+        {
+          "p-0": "Abformung und Reproduktion: Wir realisieren die Abformung vom Original bei Ihnen vor Ort oder wir nehmen das Stuck-Element mit in unsere Werkstatt. Dort wird es dann sorgfältig vorbereitet um später ein optimales Ergebnis zu erzielen. Hierbei ist dann oft auch professionelle Erfahrungen nötig, denn es ist eine handwerkliche Kunst aus dem natürlichen Werkstoff Gips das vom Kunden gewünschte Stuck-Element zu erstellen."
+        },
+        {
+          "p-1": "Voraussetzung für eine gut funktionierende Abformung ist zunächst eine eingehende Untersuchung der Beschaffenheit des Modells, wobei der Untergrund besonders gründlich beurteilt werden sollte."
+        },
+        {
+          "p-2": "Nach der Modellvorbereitung setzen wir das Modell in einen speziell angefertigten Holzrahmen. Dann gießen wir das Silikon (unverzüglich nach dem Abmischen) in diese Form. Nach dem Erhärten (normal sind hierbei etwa 24 Stunden), kann die Silikonform vom Modell abgenommen und für das Gießen der Reproduktion vorbereitet werden. Es können jetzt in beliebiger Anzahl Kopien erstellt werden. Jede benötigte Form kann so individuelle vervielfältigt werden."
+        },
+        {
+          "p-3": "Wir freuen uns auf Ihren Auftrag!"
         }
       ]
     }
