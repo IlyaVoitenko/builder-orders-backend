@@ -177,6 +177,17 @@
           "p-1": "We look forward to your order!"
         }
       ]
+    },
+    "specialFabrication": {
+      "title": "SPECIAL FABRICATION",
+      "context": [
+        {
+          "p-0": "The arch can be found in the architecture of many buildings and in different variations – primarily for decorative purposes. Over the centuries, many variations of arches have been designed. An arch above the window, on the door or a house’s facade, is a great way to accentuate your personality. We provide a detailed consultation and then custom manufacture pointed, segmental or elliptical arches for your project."
+        },
+        {
+          "p-1": "We, the arch experts, are looking forward to your order!"
+        }
+      ]
     }
   },
   "footer": {

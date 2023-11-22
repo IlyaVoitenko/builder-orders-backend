@@ -183,6 +183,17 @@
           "p-3": "Wir freuen uns auf Ihren Auftrag!"
         }
       ]
+    },
+    "specialFabrication": {
+      "title": "INDIVIDUELLE ANFERTIGUNG",
+      "context": [
+        {
+          "p-0": "Der Bogen ist in der Architektur an vielen Bauwerken in unterschiedlichen Variationen – vorrangig zu dekorativen Zwecken – zu finden. Im Laufe der Jahrhunderte wurden verschiedenste Variationen von Bögen entwickelt. Mit einem Bogen über dem Fenster, an der Tür oder einer Hausfassade akzentuieren Sie ihre Individualität. Wir beraten Sie gerne und fertigen dann für Sie z.B. Spitzbogen, Segmentbogen, Elliptische Bogen usw."
+        },
+        {
+          "p-1": "Wir sind die Bogenexperten und freuen uns über Ihren Auftrag!"
+        }
+      ]
     }
   },
   "footer": {
