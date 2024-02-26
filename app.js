@@ -19,6 +19,7 @@ app.use(
   })
 );
 app.use(express.json());
+
 app.use(i18nextMiddleware.handle(i18next));
 
 app.use(express.static(path.join(__dirname, "public/locales")));
