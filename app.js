@@ -21,7 +21,7 @@ app.use(
 app.use(express.json());
 app.use(i18nextMiddleware.handle(i18next));
 
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public/locales")));
 
 app.use((_, res) => {
   res.status(404).json({ message: "not found" });
