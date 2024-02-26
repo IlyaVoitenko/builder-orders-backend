@@ -4,6 +4,7 @@ const i18next = require("./i18next");
 const cors = require("cors");
 const express = require("express");
 const logger = require("morgan");
+const lengRoute = require("./routes/api/translation");
 
 require("dotenv").config();
 
@@ -13,6 +14,7 @@ const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
 app.use(logger(formatsLogger));
 
+app.use("/api/translations", lengRoute);
 app.use(
   cors({
     origin: "*",

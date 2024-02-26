@@ -1,7 +1,6 @@
 const path = require("path");
 const i18next = require("i18next");
 const Backend = require("i18next-node-fs-backend");
-const { LanguageDetector } = require("i18next-express-middleware");
 
 i18next.use(Backend).init(
   {
