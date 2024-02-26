@@ -14,7 +14,6 @@ const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
 app.use(logger(formatsLogger));
 
-app.use("/api/translations", lengRoute);
 app.use(
   cors({
     origin: "*",
@@ -25,6 +24,8 @@ app.use(express.json());
 app.use(i18nextMiddleware.handle(i18next));
 
 app.use(express.static(path.join(__dirname, "public/locales")));
+
+app.use("/api/translations", lengRoute);
 
 app.use((_, res) => {
   res.status(404).json({ message: "not found" });
