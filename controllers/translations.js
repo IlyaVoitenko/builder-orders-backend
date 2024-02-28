@@ -24,6 +24,7 @@ const getTranslation = (req, res) => {
     `${locale}.json`
   );
   console.log(filePath);
+
   if (fs.existsSync(filePath)) res.sendFile(filePath);
   else res.status(404).send("File not found");
 };
