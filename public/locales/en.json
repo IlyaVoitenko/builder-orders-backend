@@ -77,12 +77,6 @@
       "facadeStucco": {
         "titleCategorie": "Facade stucco",
         "categoriesTypes": {
-          "facadestucco": "Facade stucco",
-          "bosses": "Bosses",
-          "corner": "Corner elements",
-          "windowsills": "Windowsills",
-          "windowBar": "Window bar",
-          "mainCornice": "Main cornice",
           "pilaster": "Pilaster",
           "columns": "Columns",
           "miscellaneous": "Miscellaneous"

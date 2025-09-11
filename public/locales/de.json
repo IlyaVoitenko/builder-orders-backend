@@ -77,12 +77,6 @@
       "facadeStucco": {
         "titleCategorie": "Fassadenstuck",
         "categoriesTypes": {
-          "facadestucco": "Fassadenstuck",
-          "bosses": "Bossen",
-          "corner": "Eckelementen",
-          "windowsills": "Fensterbänke",
-          "windowBar": "Fensterleiste",
-          "mainCornice": "Hauptgesims",
           "pilaster": "Pilaster",
           "columns": "Säulen",
           "miscellaneous": "Sonstiges"
