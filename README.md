@@ -4,10 +4,10 @@ Send data with a translation to the client like English, Germany languages
 
 ## Installation
 
-Use any package manager [yarn] or [npm] to install dependencies.
+Use only package manager [yarn] to install dependencies.
 
 ```bash
-yarn | npm install
+yarn
 ```
 
 ## Configuration
