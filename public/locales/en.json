@@ -68,7 +68,7 @@
       "title": "Products"
     }
   },
-  "productsCategories": {
+  "productsCategory": {
     "title": "PRODUCT-CATEGORIES",
     "categories": {
       "facadeStucco": {
