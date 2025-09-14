@@ -69,10 +69,10 @@
     }
   },
   "productsCategories": {
-    "title": "PRODUCT-CATEGORIE",
+    "title": "PRODUCT-CATEGORIES",
     "categories": {
       "facadeStucco": {
-        "titleCategorie": "Facade stucco",
+        "titleCategory": "Facade stucco",
         "categoriesTypes": {
           "pilaster": "Pilaster",
           "columns": "Columns",
@@ -80,7 +80,7 @@
         }
       },
       "internal": {
-        "titleCategorie": "Internal",
+        "titleCategory": "Internal",
         "categoriesTypes": {
           "internal": "Internal",
           "pictures": "Pictures",
@@ -103,9 +103,9 @@
     }
   },
   "product": {
-    "categorie": "categorie",
-    "discription": {
-      "title": "discription",
+    "category": "category",
+    "description": {
+      "title": "description",
       "connect": "connect",
       "unitPrice": "unit price"
     },
