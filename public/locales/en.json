@@ -12,8 +12,7 @@
       "services": {
         "title": "SERVICES",
         "links": {
-          "link-1": "WHOLESALE AND RETAIL",
-          "link-2": "STUDGING WORKS",
+          "link-2": "STUCCO WORK",
           "link-3": "INDIVIDUAL PRODUCTION",
           "link-4": "MOLDING TECHNOLOGY"
         }
@@ -25,7 +24,7 @@
           "link-2": "FACADE MODEL"
         }
       },
-      "fotogalery": "FOTOGALERY",
+      "photoGallery": "PHOTO GALLERY",
       "loginDetails": "LOGIN DETAILS",
       "contact": {
         "title": "CONTACT",
@@ -111,7 +110,7 @@
     },
     "mainPage": "home"
   },
-  "photoGallery": {
+  "infoPages": {
     "photoGalleryPage": {
       "title": "Photo gallery",
       "context": [
@@ -120,42 +119,23 @@
         }
       ]
     },
-    "WholesaleAndRetailPage": {
-      "title": "Wholesale And Retail",
-      "context": [
-        {
-          "p-0": "We import internationally and factory-direct. Therefore, large quantities are absolutely no problem, as we always keep larger quantities in stock. Besides supplying retailers, processors and industry users, we’re also very happy to serve individual homeowners!"
-        },
-        {
-          "p-1": "Even small quantities can be ordered from us or picked up in person in our  store during regular business hours. We’re happy to pass our price advantage on to you and also give you a comprehensive consultation. Visit us in Berlin (Neukölln)!"
-        }
-      ]
-    },
+
     "stuccoWorkPage": {
       "title": "STUCCO WORK",
       "context": [
         {
-          "p-0": "Our company has its headquarters in Berlin and is personally run by its owner Ali K. Aygün. The company specializes in wholesale and retail of fine limestone and marble plaster (without synthetic additives) and stucco of the highest quality (natural alabaster stucco material) including professional installation. We offer our customers stucco work which includes comprehensive services and also provides value-adding home improvements."
+          "p-0": "Our company is headquartered in Grabow and personally managed by its owner, Oleksandr Voitenko. We specialize in wholesale and retail of high-quality plaster decorations – entirely free of synthetic additives."
         }
       ],
-      "AdditionalСontent": [
+      "Additional Content": [
         {
-          "p-0": "Comprehensive services from a one-stop-shop – an “All-Inclusive-Package”, covering all areas."
+          "p-0": "Please contact us for an exciting selection from our wide range of the finest plaster elements, all crafted in our workshop in Grabow."
         },
         {
-          "p-1": "We offer detailed planning and consultation in advance, in other words, we are happy to visit you on-site and take digital measurements right there. Our draftsman and engineers use these dimensions in our office to create a CAD – drawing for you on the computer for a preliminary view of the project as well as for direct construction preparation."
+          "p-1": "We offer custom-made production tailored to your requirements, for both indoor and outdoor use. With our restoration and casting techniques, we can create 100% accurate replicas of existing plaster elements, seamlessly filling gaps and giving historic designs a new brilliance. This way, the original beauty and craftsmanship of classical builders from past centuries can be reconstructed and preserved for future generations."
         },
         {
-          "p-2": "Please contact us for an interesting selection from our extensive range of finest stucco elements from international manufacturers as well as in-house production – carefully crafted in our Neukölln workshop and offering the best possible quality (eg. crown moldings, reliefs etc.)"
-        },
-        {
-          "p-3": "Custom manufacturing, tailored to the requirements at your work site for indoor & outdoor use. Thanks to our restoration and molding techniques, we are able to create 100% accurate copies of existing stucco elements and thus are easily able to close gaps in existing crown molding and let what was old shine in new splendor. This way, the original beauty and craftsmanship of the classic builders from past centuries can be reconstructed and preserved for future generations. Likewise, we also have experience in the production of curves, arcs and elliptical shapes (eg. segmental arches, etc.) in order to produce them according to your measurements."
-        },
-        {
-          "p-4": "Professional installation by our own and experienced staff complement the range of services provided to you and guarantees successful completion of the project."
-        },
-        {
-          "p-5": "Delicate trompe l’oeil, provided by our specialist painter, gives you the option of adding the ultimate personal touch to your new stucco room and wall improvements, for example by adding three-dimensionality where there is actually none."
+          "p-2": "In addition, we have expertise in producing curved, arched, and elliptical forms (such as segmental arches), manufactured precisely to your measurements."
         }
       ]
     },
@@ -183,10 +163,10 @@
     }
   },
   "footer": {
-    "location": "Berlin",
+    "location": "Grabow",
     "info": {
       "consultation": "Arrange a non-binding and free consultation with our experts. We are happy to hear from them!",
-      "contactWithUs": "You can reach us personally Monday to Friday from 8:30 a.m. to 4:30 p.m. and Saturday from 9:00 a.m. to 4:30 p.m. - or simply use the contact form for a short message and we will get back to you as soon as possible."
+      "contactWithUs": "You can reach us personally Monday to Friday from 8:00 a.m. to 4 p.m. - or simply use the contact form for a short message and we will get back to you as soon as possible."
     },
     "PolicyPrivacy": "I've read the privacy policy. I agree that my details and data are collected and stored electronically to answer my query. Note. You can withdraw at any time. You give your consent for the future by e-mail.",
     "agree": "I agree",

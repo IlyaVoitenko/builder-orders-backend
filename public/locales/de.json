@@ -12,7 +12,6 @@
       "services": {
         "title": "DIENSTLEISTUNGEN",
         "links": {
-          "link-1": "GROSS-UND EINZELHANDEL",
           "link-2": "STUDIERENDE ARBEITEN",
           "link-3": "INDIVIDUELLE FERTIGUNG",
           "link-4": "FORMTECHNIK"
@@ -25,7 +24,7 @@
           "link-2": "FASSADENMODELL"
         }
       },
-      "fotogalery": "FOTOGALERY",
+      "photoGallery": "FOTOGALERY",
       "loginDetails": "LOGIN DATEN",
       "contact": {
         "title": "KONTAKT",
@@ -111,7 +110,7 @@
     },
     "mainPage": "heim"
   },
-  "photoGallery": {
+  "infoPages": {
     "photoGalleryPage": {
       "title": "Fotogallerie",
       "context": [
@@ -135,27 +134,18 @@
       "title": "STUCKARBEITEN",
       "context": [
         {
-          "p-0": "Unser Unternehmen  hat ihren Sitz in Berlin und wird vom Inhaber Alex Voitenko persönlich geleitet. Das Unternehmen hat sich auf den Groß- und Einzelhandel mit edlen Kalk- und Marmorputzen (ohne synthetische Zusätze) und Gips der höchsten Qualität (Naturmaterial Alabastermodellgips) incl. der fachgerechten Montage spezialisiert. Wir bieten unseren Kunden Stuckarbeiten mit einem umfassenden All-Inklusiv-Service incl. einer Wohnraumaufwertung."
+          "p-0": "Unsere Firma hat ihren Hauptsitz in Grabow und wird persönlich vom Inhaber Oleksandr Voitenko geführt. Wir sind auf den Groß- und Einzelhandel mit Dekorationselementen aus hochwertigem Gips spezialisiert – komplett ohne synthetische Zusätze."
         }
       ],
       "AdditionalСontent": [
         {
-          "p-0": "Aus einer Hand erhalten Sie umfassende Serviceleistungen – das „All Inclusive“-Paket deckt dabei alle Bereiche ab."
+          "p-0": "Kontaktieren Sie uns, um aus unserer umfangreichen Auswahl der besten, in unserer Werkstatt in Grabow hergestellten Stuckelemente zu wählen."
         },
         {
-          "p-1": "Die detaillierte Planung und Beratung im Vorab. D.h., wir kommen gerne zu Ihnen auf die Baustelle und nehmen direkt Vorort digital die Maße auf. Mit diesen Maßen erstellt unser Bauzeichner & Ingenieur in unserer Geschäftsstelle für Sie am Computer eine CAD – Zeichnung zur Vorabansicht des Projekts sowie auch zur direkten Bauvorbereitung."
+          "p-1": "Wir fertigen individuell nach Ihren Anforderungen – für den Innen- und Außenbereich. Dank unserer Restaurierungs- und Gussmethoden sind wir in der Lage, bestehende Stuckelemente zu 100 % originalgetreu zu reproduzieren. So können Lücken in vorhandenen Formen problemlos geschlossen und historische Werke in neuem Glanz erstrahlen. Auf diese Weise bleibt die ursprüngliche Schönheit und Handwerkskunst der Baukultur vergangener Jahrhunderte erhalten."
         },
         {
-          "p-2": "Sie erhalten bei uns eine interessante Auswahl aus unserem umfassenden Sortiment edelster Stuckelemente aus internationaler Fabrikation und eigener – sorgfältiger Handarbeit in unserer Neuköllner Werkstatt Herstellung – in bester Qualität (z.B. Stuckleisten, Reliefs etc.)"
-        },
-        {
-          "p-3": "Individuelle Anfertigungen zurechtgeschnitten auf die Begebenheiten bei Ihnen vor Ort im Innen-& Außenbereich. Mittels unserer Restaurations- und Abformtechniken sind wir in der Lage 100%ige Kopien von vorhandenen Stuckelementen zu erstellen und damit problemlos Lücken bei Stuckleisten zu schließen und damit Altes in neuem Glanze erstrahlen zu lassen. So kann die ursprüngliche Schönheit und Handwerkskunst der klassischen Baumeister vergangener Jahrhunderte rekonstruiert und für die nächsten Generationen erhalten werden. Ebenso haben wir auch Erfahrung bei der Herstellung von Rundungen, Bögen und elliptische Formen (z.B. Segmentbögen etc.) um diese entsprechend Ihrer Maße herzustellen."
-        },
-        {
-          "p-4": "Die professionelle Montage durch unsere eigenen und erfahrenen Mitarbeiter runden unser Serviceangebot für Sie ab und garantiert Ihnen einen erfolgreichen Abschluss des Projekts."
-        },
-        {
-          "p-5": "Mittels filigranster Illusionsmalerei erhalten sie die Option mit dem für uns tätigen Illusionsmaler – auch Ihren neuen „Raum- bzw. Wandverschönerungen“ aus Stuck – Ihre ganz persönliche Note durch optische Täuschungen (z.B. von Räumlichkeit wo keine ist) etc. hinzufügen."
+          "p-2": "Darüber hinaus verfügen wir über Erfahrung in der Herstellung von gebogenen, bogenförmigen und elliptischen Formen (z. B. Segmentbögen), die wir exakt nach Ihren Maßen anfertigen."
         }
       ]
     },
@@ -189,10 +179,10 @@
     }
   },
   "footer": {
-    "location": "Berlin",
+    "location": "Grabow",
     "info": {
       "consultation": "Vereinbaren Sie eine unverbindliche und kostenlose Beratung durch unsere Experten. Wir freuen uns, von Ihnen zu hören!",
-      "contactWithUs": "Persönlich erreichen Sie uns Montags bis Freitags in der Zeit von 8:30 bis 16:30 Uhr und Samstags von 9:00 bis 16:30 Uhr - oder nutzen Sie einfach das Kontaktformular für eine kurze Nachricht, wir melden uns umgehend bei Ihnen."
+      "contactWithUs": "Persönlich erreichen Sie uns Montags bis Freitags in der Zeit von 8:00 bis 16:00  oder nutzen Sie einfach das Kontaktinformationen für eine kurze Nachricht, wir melden uns umgehend bei Ihnen."
     },
     "PolicyPrivacy": "Ich habe die Datenschutzerklärung gelesen. Ich stimme zu, dass meine Angaben und Daten elektronisch erhoben und gespeichert werden, um meine Anfrage zu beantworten. Notiz. Sie können jederzeit zurücktreten, Ihre Einwilligung für die Zukunft erteilen Sie per E-Mail an",
     "agree": "Ich bin einverstanden",
