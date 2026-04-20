@@ -1,93 +1,119 @@
-# builder-orders-backend
+# Builder Orders Backend
 
-Send data with a translation to the client like English, Germany languages
+Express-based backend service that delivers localization files for the Builder project.
+
+## What This Service Does
+
+- Serves translation JSON files from `public/locales`.
+- Provides an API endpoint to fetch locale files by language code.
+- Uses `i18next` with filesystem backend and Express middleware.
+- Includes basic request logging, CORS support, and error handling.
+
+## Tech Stack
+
+- `Node.js` + `Express`
+- `i18next`, `i18next-node-fs-backend`, `i18next-express-middleware`
+- `morgan` for HTTP logs
+- `cors` for cross-origin requests
+- `nodemon` for local development runtime
+- `vercel` deployment config (`vercel.json`)
+
+## Project Structure
+
+```text
+.
+├── app.js                         # Express app and middleware setup
+├── server.js                      # Server bootstrap (port 4001)
+├── controllers/
+│   └── translations.js            # Translation file response logic
+├── routes/api/translation/
+│   └── index.js                   # Translation routes
+├── i18next/
+│   └── index.js                   # i18next configuration
+├── public/locales/
+│   ├── de.json
+│   └── en.json
+└── vercel.json
+```
+
+## Prerequisites
+
+- Node.js 18+ recommended
+- Yarn package manager
 
 ## Installation
 
-Use only package manager [yarn] to install dependencies.
-
 ```bash
-yarn
+yarn install
 ```
 
-## Configuration
+## Run Locally
 
-# Logging Configuration:
+```bash
+yarn start
+```
 
-- The application uses the morgan middleware for logging HTTP requests.
-- Log format depends on the environment: "dev" in development mode and "short" in other environments.
+Current startup script:
 
-# CORS Configuration:
+- `yarn start` -> `nodemon server.js`
+- Server listens on `http://localhost:4001`
 
-- Cross-Origin Resource Sharing is enabled using the cors middleware with a wildcard origin (\*), allowing requests from any origin.
+## API
 
-# JSON Parsing Middleware:
+### Health-style route
 
-- The application uses express.json() middleware for parsing incoming JSON requests.
-  Internationalization Middleware:
+- `GET /api/translations/`
+- Response: `"hello"`
 
-- i18nextMiddleware.handle(i18next) is used to handle internationalization using the i18next library.
+### Fetch translation file
 
-# Static File Serving:
+- `GET /api/translations/locales/:locale`
+- Example: `GET /api/translations/locales/en`
+- Success: returns JSON file content from `public/locales/:locale.json`
+- Not found: returns `404` with `"File not found"`
 
-- Static localization files are served from the public/locales directory using express.static() middleware.
+## i18n Behavior
 
-# Error Handling Middleware:
+The service initializes `i18next` with:
 
-- Error handling middleware is defined to handle both 404 Not Found errors and internal server errors (500).
-- 404 middleware responds with a JSON message "not found" and a status code of 404.
-- Internal server error middleware logs the error to the console and responds with a JSON message containing the error message and a status code of 500.
+- `fallbackLng: "de"`
+- `preload: ["de", "en"]`
+- Files loaded from: `public/locales/{{lng}}.json`
+- Language detection order: query string, then cookie
 
-## Usage
+## Middleware and Runtime Notes
 
-# To use this Express application:
+- Logging: `morgan` with `dev` format in development, `short` otherwise
+- CORS: currently open (`origin: "*"`)
+- JSON body parsing enabled via `express.json()`
+- Static files served from `public/locales`
+- 404 handler returns `{ "message": "not found" }`
+- Error handler returns `{ "message": err.message }`
 
-1.  Install the required dependencies using npm or yarn.
-2.  Configure environment variables using a .env file.
-3.  Start the server using node app.js or a similar command.
+## Deployment
 
-//////////////////////////////////////////////////////////
+`vercel.json` is configured to route all requests to `server.js`.
 
-# Documentation for Localization Code using i18next
+## Project Analysis
 
-//////////////////////////////////////////////////////////
+### Current strengths
 
-# Description
+- Simple, focused architecture (single responsibility: translation delivery).
+- Clear route/controller separation.
+- i18next filesystem configuration is straightforward and easy to maintain.
 
-This code is used to configure the initialization of the i18next library, which provides localization (multilingual) support in your application.
+### Risks and improvement opportunities
 
-# Dependencies
+- **Hardcoded port**: `server.js` uses fixed `4001`.  
+  Better: use `process.env.PORT || 4001` for cloud compatibility.
+- **Open CORS policy**: `origin: "*"` is permissive for production.  
+  Better: restrict origins via environment-based allowlist.
+- **Synchronous filesystem check** in controller (`fs.existsSync`) can block event loop under load.  
+  Better: use async `fs.promises.access` or stream with proper error handling.
+- **No automated tests**: behavior regressions are likely over time.  
+  Better: add integration tests for translation route and 404/error flows.
+- **Error logging** uses `console.log`; production apps benefit from structured logging.
 
-1. i18next: A library for localization in web applications.
-2. i18next-node-fs-backend: A plugin for i18next that allows loading localization files from the Node.js file system.
-3. i18next-express-middleware: Module providing facilities for language detection in Express requests.
+## License
 
-## Usage
-
-1. Setting Localization File Paths:
-
-- The path to the localization files is specified in the loadPath property in the backend object.
-
-- Default path: builder-orders-backend/public/locales/{{lng}}.json.
-
-- {{lng}} is a parameter that will be replaced with the language code during the loading of localization files.
-
-2. Initialization Parameters:
-
-- debug: Set to true to enable i18next debugging mode.
-
-- detection: Configuration for detecting the user's language.
-
-- saveMissing: Set to true to save missing phrases in localization files.
-
-- fallbackLng: The language that will be used as a fallback if a translation for the current language is not found.
-
-- preload: An array of languages to be preloaded.
-
-3. Handling Initialization Errors:
-
-- If an error occurs during the initialization of i18next, it will be logged to the console.
-
-4. Exporting the i18next Object:
-
-- After initialization, the i18next object is exported for further use in your application.
+MIT
